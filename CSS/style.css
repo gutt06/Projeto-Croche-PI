@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: #DEB887;
+}
+.separador-sobre{
+    margin-top: 40px;
+    text-align: center;
+    background: #F4A460;
+    height: 60px;
+}
+.sobre{
+    margin-top: 100px;
+    display: flex;
+}
+.sobre .texto{
+    max-width: 50%;
+    font-size: 25px;
+    margin: 0 auto;
+    height: 250px;
+    text-align: justify;
+}
+@media (max-width: 1140px) {
+    .text-size-start {
+      font-size: 18px;
+      color: red;
+    }
+  }
+.sobre .imagem{
+    margin: 0 auto;
+}
+.imagem img{
+    border-radius: 10px;
+}
+.separador-produtos{
+    margin-top: 80px;
+    text-align: center;
+    background: #F4A460;
+    height: 60px;
+}
+.produtos{
+    margin-bottom: 50px;
+}
+.final{
+    background: #F4A460;
+    height: 70px;
+}
+.final .contatos{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.final .contatos li{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    outline: none;
+}
+.carrosel{
+    padding: 20px;
+}
+.linha1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.linha1 .card{
+    margin-right: 50px;
+}
+.linha2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.linha2 .card{
+    margin-right: 50px;
+}
+.contatos li{
+    color: black;
+}
+.contatos li a{
+    text-decoration: none;
+    color: black;
+}
