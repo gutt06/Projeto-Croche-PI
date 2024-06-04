@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.back_container{
+    background: #ECDBD3;
+}
 .navbar{
-    background: #DEB887;
+    background: #8e5229;
 }
 .navbar .navbar-brand{
     border-radius: 50%;
@@ -11,7 +14,7 @@
 .separador-sobre{
     margin-top: 40px;
     text-align: center;
-    background: #F4A460;
+    background: #89A99F;
     height: 60px;
 }
 .sobre{
@@ -42,17 +45,14 @@
 .separador-produtos{
     margin-top: 80px;
     text-align: center;
-    background: #F4A460;
+    background: #89A99F;
     height: 60px;
 }
 .produtos{
     margin-bottom: 50px;
 }
-.card .card-text{
-
-}
 .final{
-    background: #F4A460;
+    background: #8e5229;
     height: 90px;
 }
 .final .contatos{
