@@ -5,10 +5,25 @@
 .back_container{
     background: #ECDBD3;
 }
-.navbar{
+.cabecalho{
     background: #8e5229;
+    display: flex;
+    color: white;
+    max-height: 70px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+
 }
-.navbar .navbar-brand{
+.cabecalho .logo{
+    width: 60px;
+    margin-right: 30px;
+}
+.cabecalho h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+}
+.logo{
     border-radius: 50%;
 }
 .separador-sobre{
@@ -68,9 +83,6 @@
     margin-top: 20px;
     outline: none;
 }
-.final .contatos .Logo{
-    border-radius: 50%;
-}
 .final .contatos #sobre-btn{
     text-decoration: underline;
 }
@@ -96,9 +108,9 @@
     margin-right: 50px;
 }
 .contatos li{
-    color: black;
+    color: white;
 }
 .contatos li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
